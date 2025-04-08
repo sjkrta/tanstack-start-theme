@@ -1,0 +1,41 @@
+{
+  "name": "portal-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --env-file=.env.development ./node_modules/.bin/vinxi dev",
+    "dev:cupcake": "node --env-file=.env.cupcake ./node_modules/.bin/vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "prettier": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/postcss": "^4.1.3",
+    "@tanstack/react-router": "^1.115.2",
+    "@tanstack/react-start": "^1.115.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.487.0",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.3",
+    "tw-animate-css": "^1.2.5",
+    "vinxi": "^0.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

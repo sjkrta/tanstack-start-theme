@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-background: white;
+}
+
+[data-theme="default"] {
+  --color-background: blue;
+}
+
+[data-theme="default-dark"] {
+  --color-background: purple;
+}
+
+@layer base {
+  html {
+    @apply bg-background;
+  }
+  h1 {
+    @apply text-4xl font-bold;
+  }
+}

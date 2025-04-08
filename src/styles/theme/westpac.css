@@ -1,0 +1,9 @@
+@reference "../app.css";
+
+[data-theme="cupcake"] {
+  --color-background: red;
+}
+
+[data-theme="cupcake-dark"] {
+  --color-background: green;
+}

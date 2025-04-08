@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules
+
+# Environment files
+.env
+.env.sentry-build-plugin
+
+# System files
+.DS_Store
+
+# Cache and build directories
+.cache
+/build/
+/api/
+/server/build
+/public/build
+.vinxi
+
+# Deployment and output directories
+.vercel
+.output
+
+# Test and report directories
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
